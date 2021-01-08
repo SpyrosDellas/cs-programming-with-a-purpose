@@ -1,0 +1,180 @@
+/* *****************************************************************************
+ *  Name:              Spyridon Theodoros Dellas
+ *  Coursera User ID:  spyrosdellas@yahoo.com
+ *  Last modified:     18/03/2020
+ *
+ * Implements the Quick Sort algorithm for an array of integers.
+ *
+ **************************************************************************** */
+
+import java.util.Arrays;
+import java.util.Random;
+
+public class QuickSortTest {
+
+    private static int[] partition(int[] a, int start, int end) {
+        /* Puts the elements less than the pivot value at the beginning of the
+          array and the elements greater than the pivot value at the end of
+          the array
+         */
+
+        // To achieve a balanced split, we choose the median of the first,
+        // mid and last entry of the array as the pivot value.
+        // We then switch it with a[start] if a[start] is not the pivot already
+        // (this us equivalent to moving the pivot to the start of the array).
+        int mid = start + (end - start) / 2;
+        int startval = a[start];
+        int midval = a[mid];
+        int endval = a[end - 1];
+        int pivot = 0;
+        if (startval == midval || startval == endval) {
+            pivot = startval;
+        }
+        else if (midval == endval) {
+            pivot = midval;
+            a[mid] = a[start];
+        }
+        else if (startval < midval && startval < endval) {
+            if (midval < endval) {
+                pivot = midval;
+                a[mid] = a[start];
+            }
+            else {
+                pivot = endval;
+                a[end - 1] = a[start];
+            }
+        }
+        else if (startval > midval && startval > endval) {
+            if (midval > endval) {
+                pivot = midval;
+                a[mid] = a[start];
+            }
+            else {
+                pivot = endval;
+                a[end - 1] = a[start];
+            }
+        }
+        else {
+            pivot = startval;
+        }
+
+        // pivotStart and pivotEnd keep track of the pivot position, taking into
+        // account that can be multiple occurences of the pivot in the array
+        int pivotStart = start;
+        int pivotEnd = start;
+
+        // Put the elements less than the pivot value at the beginning of the
+        // array and the elements greater than the pivot value at the end of
+        // the array
+        int index = start + 1;
+        while (index < end) {
+            if (a[index] == pivot) {
+                a[index] = a[pivotEnd + 1];
+                pivotEnd++;
+            }
+            else if (a[index] < pivot) {
+                a[pivotStart] = a[index];
+                a[index] = a[pivotEnd + 1];
+                pivotStart++;
+                pivotEnd++;
+            }
+            index++;
+        }
+
+        // Write the pivot value to it's final position
+        for (int i = pivotStart; i <= pivotEnd; i++) {
+            a[i] = pivot;
+        }
+
+        int[] partition = new int[] { pivotStart, pivotEnd };
+        return partition;
+    }
+
+
+    private static void quickSort(int[] a, int start, int end) {
+        /* Implements quick sort algorithm for a subarray of a, from start
+        (inclusive) to end (exclusive).
+
+        The sorting is performed in place.
+
+        To limit the depth of the recursion in the case of unbalanced splits,
+        we sort recursively the smallest subarray only and iterate over the
+        largest subarray
+         */
+
+        while (end - start > 1) {
+            // Partition the array
+            int[] pivot = partition(a, start, end);
+
+            // Recursively sort the elements of the smallest part of the
+            // partitioned array and update 'start' and 'end' to the values
+            // corresponding to the largest part of the array
+            if ((pivot[0] - start) < (end - (pivot[1] + 1))) {
+                quickSort(a, start, pivot[0]);
+                start = pivot[1] + 1;
+            }
+            else {
+                quickSort(a, pivot[1] + 1, end);
+                end = pivot[0];
+            }
+        }
+    }
+
+
+    public static void sort(int[] a) {
+        quickSort(a, 0, a.length);
+    }
+
+
+    private static void test() {
+
+        Random genny = new java.util.Random();
+
+        for (int i = 1; i <= 2048; i *= 2) {
+            int n = 10000 * i;
+            // Create an array of size n, consisting of random 32-bit integers.
+            int[] a = new int[n];
+            for (int k = 0; k < n; k++) {
+                a[k] = genny.nextInt();  // Generates a random 32-bit integer
+            }
+            // Create a copy for testing purposes
+            int[] b = Arrays.copyOf(a, a.length);
+
+            // Sort the array and time the sorting
+            double start = System.currentTimeMillis();
+            sort(a);
+            double end = System.currentTimeMillis();
+            double time = (end - start) / 1000;
+            System.out.println(
+                    "For array size n = " + n + ", sorting completed in " + time + " seconds");
+            Arrays.sort(b);
+            System.out.println("Solution is correct: " + Arrays.equals(a, b));
+
+        }
+
+    }
+
+
+    public static void main(String[] args) {
+
+        int[] test1 = new int[] { -1, 5, 3, 10, 3, -50, 50, 3, 0, 6, -1, 6 };
+        System.out.println(Arrays.toString(test1));
+        sort(test1);
+        System.out.println("Result: ");
+        System.out.println(Arrays.toString(test1));
+
+        Random genny = new java.util.Random();
+        // Create an array of size n, consisting of random 32-bit integers.
+        int n = 20;
+        int[] a = new int[n];
+        for (int k = 0; k < n; k++) {
+            a[k] = genny.nextInt();  // Generates a random 32-bit integer
+        }
+        System.out.println(Arrays.toString(a));
+        quickSort(a, 0, a.length);
+        System.out.println("Result: ");
+        System.out.println(Arrays.toString(a));
+
+        test();
+    }
+}

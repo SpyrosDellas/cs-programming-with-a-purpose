@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="DISPLAY_NOTIFICATION_POPUP" value="false" />
+    <option name="CLEAR_OUTPUT_DIRECTORY" value="false" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+    <option name="SCHEME" value="Project" />
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <analyzeAfterCompile>true</analyzeAfterCompile>
+    <toolWindowToFront>false</toolWindowToFront>
+  </component>
+  <component name="ProjectId" id="1Y2XWkqIcqDASirRgK3hmRCllOC" />
+  <component name="PropertiesComponent">
+    <property name="ToolWindowMessages.ShowToolbar" value="false" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Butterfly">
+    <configuration name="AddInts" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="AddInts" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="5" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BouncingBallDeluxe" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="BouncingBallDeluxe" />
+      <module name="Computer Science" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Butterfly" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Butterfly" />
+      <module name="Computer Science" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Chaos" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Chaos" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="50000 0.001" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Checkerboard" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Checkerboard" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="8" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Globe" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Globe" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value=".98" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MouseFollower" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="MouseFollower" />
+      <module name="Computer Science" />
+      <method v="2" />
+    </configuration>
+    <configuration name="OneSimpleAttractor" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="OneSimpleAttractor" />
+      <module name="Computer Science" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PlotFilter" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="PlotFilter" />
+      <module name="Computer Science" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="usa1.txt" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ShannonEntropy" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ShannonEntropy" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="6" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="loaded-die.txt" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Spirograph" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Spirograph" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="180 40 15" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Triangle" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Triangle" />
+      <module name="Computer Science" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TwentyQuestions" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="TwentyQuestions" />
+      <module name="Computer Science" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WorldMap" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="WorldMap" />
+      <module name="Computer Science" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="world.txt" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.AddInts" />
+      <item itemvalue="Application.PlotFilter" />
+      <item itemvalue="Application.Triangle" />
+      <item itemvalue="Application.TwentyQuestions" />
+      <item itemvalue="Application.Spirograph" />
+      <item itemvalue="Application.BouncingBallDeluxe" />
+      <item itemvalue="Application.MouseFollower" />
+      <item itemvalue="Application.OneSimpleAttractor" />
+      <item itemvalue="Application.ShannonEntropy" />
+      <item itemvalue="Application.Checkerboard" />
+      <item itemvalue="Application.Chaos" />
+      <item itemvalue="Application.WorldMap" />
+      <item itemvalue="Application.Globe" />
+      <item itemvalue="Application.Butterfly" />
+    </list>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+</project>

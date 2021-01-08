@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="DISPLAY_NOTIFICATION_POPUP" value="false" />
+    <option name="CLEAR_OUTPUT_DIRECTORY" value="false" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+    <option name="SCHEME" value="Project" />
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <analyzeAfterCompile>true</analyzeAfterCompile>
+    <toolWindowToFront>false</toolWindowToFront>
+  </component>
+  <component name="ProjectId" id="1YhT1HEMFhLITBalC0DpioNkzhQ" />
+  <component name="PropertiesComponent">
+    <property name="ToolWindowMessages.ShowToolbar" value="false" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ThreeSumAnalysis">
+    <configuration name="ArrayRotation" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ArrayRotation" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="3" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Inversions" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Inversions" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="10 0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MaximumSquareSubmatrix" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="MaximumSquareSubmatrix" />
+      <module name="Computer Science" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="square7.txt" />
+      <method v="2" />
+    </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="QuickSortTest" />
+      <module name="Computer Science" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Ramanujan" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Ramanujan" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="9223278330318728221" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Ramanujan3" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Ramanujan3" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="87539319" />
+      <option name="INPUT_FILE" value="square6.txt" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RepeatedIntegerEasy" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="RepeatedIntegerEasy" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="10000000 4" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RepeatedIntegerHard" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="RepeatedIntegerHard" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="20" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RepeatedIntegerMedium" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="RepeatedIntegerMedium" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="10000000 4" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ReverseString" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ReverseString" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="abracatabra" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ThreeSum" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ThreeSum" />
+      <module name="Computer Science" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ThreeSumAnalysis" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ThreeSumAnalysis" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="10000 100" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Inversions" />
+      <item itemvalue="Application.Ramanujan" />
+      <item itemvalue="Application.Ramanujan3" />
+      <item itemvalue="Application.MaximumSquareSubmatrix" />
+      <item itemvalue="Application.ReverseString" />
+      <item itemvalue="Application.ArrayRotation" />
+      <item itemvalue="Application.RepeatedIntegerEasy" />
+      <item itemvalue="Application.RepeatedIntegerMedium" />
+      <item itemvalue="Application.RepeatedIntegerHard" />
+      <item itemvalue="Application.ThreeSumAnalysis" />
+      <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.ThreeSum" />
+    </list>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+</project>
